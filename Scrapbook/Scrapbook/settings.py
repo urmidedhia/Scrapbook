@@ -39,7 +39,6 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     # 'pin_passcode',
-    'bootstrap3',
     'entries',
     'home',
 ]
