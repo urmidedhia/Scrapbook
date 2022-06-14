@@ -1,0 +1,59 @@
+{% load bootstrap3 %}
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static '/css/login.css' %}">
+    <title>LoginSystem</title> 
+  
+</head>
+
+<body>
+    <!-- <form method="post">
+        {% csrf_token %}
+        
+        {{form.as_p}}
+        <input type="submit" value="Login"/>
+        
+    </form> -->
+    <div class="card centre">
+    <form method="post">
+        {% csrf_token %}
+        <img src="{% static '/images/login.png' %}" alt="hehe" height=5% width=100%>
+        <div class="container">
+        <table>
+            <tr>
+                <td>Our name :  {{form.username}}</td>
+            </tr>
+            <tr>
+                <td>Our first date : {{form.password}}</td>
+            </tr>
+        </table>
+        </div>
+        <button id="hehe" type="submit" value="Surprise!">Surprise!</button>
+    </form>
+    </div>
+
+    <p>Made with Love - Urmi ♥</p>
+    
+</body>
+</html>
+<!-- <form method="post">
+        {% csrf_token %}
+    <ul class="contactList">
+        <li color="blue">{{ form.username }}</li>
+        <li color="red">{{ form.password }}</li>
+        <input type="submit" value="Lessgooo"/>
+    </ul>
+    </form> -->
+
+ <!-- <form  method="post" class="form">
+        {% csrf_token %}
+        {% bootstrap_form form %}
+        {% buttons %}
+            <button type="submit" class="btn btn-primary">Submit</button>
+        {% endbuttons %}
+    </form> -->

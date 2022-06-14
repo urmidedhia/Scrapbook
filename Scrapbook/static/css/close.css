@@ -1,0 +1,131 @@
+body{
+    background-image: url('../images/finalfinal.gif');
+    background-size: 101% 276%;
+    margin: 0;
+  height: 36.5vh;
+  display: grid;
+  align-items: center;
+  justify-items: center;
+}
+
+
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,400i,700");
+
+.card {
+  background: #fff;
+  border-radius: 4px;
+  box-shadow: -2px 3px 15px 5px rgba(34, 35, 58, 0.5);
+  max-width: 830px;
+  height: 550px;
+  display: flex;
+  flex-direction: row;
+  border-radius: 15px;
+  position: absolute;
+  top:13.5%;
+  left: 22.5%;
+}
+.card h2 {
+  font-family: 'Papyrus';
+  margin-top:40px;
+  margin-left: 40px;
+  font-size: 30px;
+  padding: 0 1rem;
+}
+.card .title {
+  padding-right: 1.45rem;
+  text-align: right;
+  color: green;
+  font-weight: bold;
+  font-size: 12px;
+  font-family: 'Courier New';
+}
+.card .desc {
+  margin-left: 40px;
+  padding: 0.5rem 1rem;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: 'Papyrus';
+  color: rgb(82, 92, 82)
+}
+.card .actions {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+  padding: 0.5rem 1rem;
+}
+
+.card-text {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+
+.title-total {
+  padding: 2.5em 1.5em 1.5em 1.5em;
+}
+
+path {
+  fill: white;
+}
+
+.img-portada {
+  width: 100%;
+}
+
+.portada {
+  width: 120%;
+  height: 100%;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+  background-image: url('../images/prathamend.jpg');
+  background-position: bottom center;
+  background-size: cover;
+}
+
+button{
+    cursor:pointer;
+}
+
+   .button-55 {
+    margin-left: 70px;
+    margin-top: 20px;
+    align-self: center;
+    background-color: #a88e77;
+    background-image: none;
+    background-position: 0 90%;
+    background-repeat: repeat no-repeat;
+    background-size: 4px 3px;
+    border-radius: 15px 225px 255px 15px 15px 255px 225px 15px;
+    border-style: solid;
+    border-width: 2px;
+    box-shadow: rgba(0, 0, 0, .2) 7px 9px 1px 0px;
+    box-sizing: border-box;
+    color: #e4e2de;
+    cursor: pointer;
+    display: inline-block;
+    font-family: 'Papyrus',Neucha, sans-serif;
+    font-weight:bold;
+    font-size: 1rem;
+    line-height: 23px;
+    outline: none;
+    padding: 1.5rem;
+    text-decoration: none;
+    transition: all 235ms ease-in-out;
+    border-bottom-left-radius: 15px 255px;
+    border-bottom-right-radius: 225px 15px;
+    border-top-left-radius: 255px 15px;
+    border-top-right-radius: 15px 225px;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    border-color: #e4e2de;
+    width: 370px;
+  }
+  
+  .button-55:hover {
+    box-shadow: rgba(0, 0, 0, .3) 2px 8px 8px -5px;
+    transform: translate3d(0, 2px, 0);
+  }
+  
+  .button-55:focus {
+    box-shadow: rgba(0, 0, 0, .3) 2px 8px 4px -6px;
+  }

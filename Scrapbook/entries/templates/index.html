@@ -1,0 +1,381 @@
+{%load static%}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static '/css/index.css' %}">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant:wght@300&display=swap" rel="stylesheet">
+    <title>Index</title>
+</head>
+<body>
+    <div class="image">
+    <h1>INDEX</h1>
+    
+    <div class="box">
+        <div class="card" > 
+            <div class="imgBx">
+                <form method="post" action="{% url 'entry' %}">
+                {% csrf_token %}
+                    <button type="submit" name="Mom">
+                        <img src="{% static '/images/001_a.png' %}" alt="picture of person" height="300px">
+                    </button>
+                </form>
+            </div>
+            <div class="details">
+                <h2>Naina Bhoir<br><span>Mom</span></h2> 
+            </div>
+        </div>
+
+
+        <div class="card" > 
+            <div class="imgBx">
+                <form method="post" action="{% url 'entry' %}">
+                {% csrf_token %}
+                    <button  type="submit" name="Dad">
+                        <img src="{% static '/images/001_b.png' %}" alt="picture of person" height="300px">
+                    </button>
+                </form>
+            </div>
+            <div class="details">
+                <h2>Vinit Bhoir<br><span>Dad</span></h2> 
+            </div>
+        </div>
+
+        <div class="card" > 
+            <div class="imgBx">
+                <form method="post" action="{% url 'entry' %}">
+                {% csrf_token %}
+                    <button  type="submit" name="Jetal">
+                        <img src="{% static '/images/002_a.png' %}" alt="picture of person" height="300px">
+                    </button>
+                </form>
+            </div>
+            <div class="details">
+                <h2>Jetal Bhoir<br><span>Jetal</span></h2> 
+            </div>
+        </div>
+
+        <div class="card" > 
+            <div class="imgBx">
+                <form method="post" action="{% url 'entry' %}">
+                {% csrf_token %}
+                    <button  type="submit" name="Kartikee">
+                        <img src="{% static '/images/002_b.png' %}" alt="picture of person" height="300px">
+                    </button>
+                </form>
+            </div>
+            <div class="details">
+                <h2>Kartikee Bhoir<br><span>Katie</span></h2> 
+            </div>
+        </div>
+
+        <div class="card" > 
+            <div class="imgBx">
+                <form method="post" action="{% url 'entry' %}">
+                {% csrf_token %}
+                    <button  type="submit" name="Aai">
+                        <img src="{% static '/images/003_a.png' %}" alt="picture of person" height="300px">
+                    </button>
+                </form>
+            </div>
+            <div class="details">
+                <h2>Aai Bhoir<br><span>Aai</span></h2> 
+            </div>
+        </div>
+
+        <div class="card" > 
+            <div class="imgBx">
+                <form method="post" action="{% url 'entry' %}">
+                {% csrf_token %}
+                    <button  type="submit" name="Chirag">
+                        <img src="{% static '/images/003_b.png' %}" alt="picture of person" height="300px">
+                    </button>
+                </form>
+            </div>
+            <div class="details">
+                <h2>Chirag Kajale<br><span>Chichi</span></h2> 
+            </div>
+        </div>
+
+        <div class="card" > 
+            <div class="imgBx">
+                <form method="post" action="{% url 'entry' %}">
+                {% csrf_token %}
+                    <button  type="submit" name="CJ">
+                        <img src="{% static '/images/004_a.png' %}" alt="picture of person" height="300px">
+                    </button>
+                </form>
+            </div>
+            <div class="details">
+                <h2>Chaitanya Jagade<br><span>CJ</span></h2> 
+            </div>
+        </div>
+
+        <div class="card" > 
+            <div class="imgBx">
+                <form method="post" action="{% url 'entry' %}">
+                {% csrf_token %}
+                    <button  type="submit" name="Urmi">
+                        <img src="{% static '/images/004_b.png' %}" alt="picture of person" height="300px">
+                    </button>
+                </form>
+            </div>
+            <div class="details">
+                <h2>Urmi Dedhia<br><span>🐧</span></h2> 
+            </div>
+        </div>
+
+        <div class="card" > 
+            <div class="imgBx">
+                <form method="post" action="{% url 'entry' %}">
+                {% csrf_token %}
+                    <button  type="submit" name="Manasi">
+                        <img src="{% static '/images/007_a.png' %}" alt="picture of person" height="300px">
+                    </button>
+                </form>
+            </div>
+            <div class="details">
+                <h2>Manasi Kamble<br><span>Manasi</span></h2> 
+            </div>
+        </div>
+
+        <div class="card" > 
+            <div class="imgBx">
+                <form method="post" action="{% url 'entry' %}">
+                {% csrf_token %}
+                    <button  type="submit" name="Shreyas">
+                        <img src="{% static '/images/007_b.png' %}" alt="picture of person" height="300px">
+                    </button>
+                </form>
+            </div>
+            <div class="details">
+                <h2>Shreyas Bagale<br><span>Shreyas</span></h2> 
+            </div>
+        </div>
+
+        <div class="card" > 
+            <div class="imgBx">
+                <form method="post" action="{% url 'entry' %}">
+                {% csrf_token %}
+                    <button  type="submit" name="Amol">
+                        <img src="{% static '/images/008_a.png' %}" alt="picture of person" height="300px">
+                    </button>
+                </form>
+            </div>
+            <div class="details">
+                <h2>Amol Nandgaonkar<br><span>Amol</span></h2> 
+            </div>
+        </div>
+
+        <div class="card" > 
+            <div class="imgBx">
+                <form method="post" action="{% url 'entry' %}">
+                {% csrf_token %}
+                    <button  type="submit" name="Kush">
+                        <img src="{% static '/images/009_a.png' %}" alt="picture of person" height="300px">
+                    </button>
+                </form>
+            </div>
+            <div class="details">
+                <h2>Kush Maniar<br><span>Khus</span></h2> 
+            </div>
+        </div>
+
+        <div class="card" > 
+            <div class="imgBx">
+                <form method="post" action="{% url 'entry' %}">
+                {% csrf_token %}
+                    <button  type="submit" name="Vidhita">
+                        <img src="{% static '/images/009_b.png' %}" alt="picture of person" height="300px">
+                    </button>
+                </form>
+            </div>
+            <div class="details">
+                <h2>Vidhita Pai<br><span>V</span></h2> 
+            </div>
+        </div>
+
+        <div class="card" > 
+            <div class="imgBx">
+                <form method="post" action="{% url 'entry' %}">
+                {% csrf_token %}
+                    <button  type="submit" name="Rosita">
+                        <img src="{% static '/images/010_a.png' %}" alt="picture of person" height="300px">
+                    </button>
+                </form>
+            </div>
+            <div class="details">
+                <h2>Rosita D'Mello<br><span>Ro</span></h2> 
+            </div>
+        </div>
+
+        <div class="card" > 
+            <div class="imgBx">
+                <form method="post" action="{% url 'entry' %}">
+                {% csrf_token %}
+                    <button  type="submit" name="Sarthak">
+                        <img src="{% static '/images/010_b.png' %}" alt="picture of person" height="300px">
+                    </button>
+                </form>
+            </div>
+            <div class="details">
+                <h2>Sarthak Bhan<br><span>Senpai</span></h2> 
+            </div>
+        </div>
+
+        <div class="card" > 
+            <div class="imgBx">
+                <form method="post" action="{% url 'entry' %}">
+                {% csrf_token %}
+                    <button  type="submit" name="Lokita">
+                        <img src="{% static '/images/013_a.png' %}" alt="picture of person" height="300px">
+                    </button>
+                </form>
+            </div>
+            <div class="details">
+                <h2>Lokita Varma<br><span>Loki</span></h2> 
+            </div>
+        </div>
+
+        <div class="card" > 
+            <div class="imgBx">
+                <form method="post" action="{% url 'entry' %}">
+                {% csrf_token %}
+                    <button  type="submit" name="Mangu">
+                        <img src="{% static '/images/013_b.png' %}" alt="picture of person" height="300px">
+                    </button>
+                </form>
+            </div>
+            <div class="details">
+                <h2>Harsh Mangukiya<br><span>Mangu</span></h2> 
+            </div>
+        </div>
+
+        <div class="card" > 
+            <div class="imgBx">
+                <form method="post" action="{% url 'entry' %}">
+                {% csrf_token %}
+                    <button  type="submit" name="Kiki">
+                        <img src="{% static '/images/014_a.png' %}" alt="picture of person" height="300px">
+                    </button>
+                </form>
+            </div>
+            <div class="details">
+                <h2>Khushi Mehta<br><span>Kiki</span></h2> 
+            </div>
+        </div>
+
+        <div class="card" > 
+            <div class="imgBx">
+                <form method="post" action="{% url 'entry' %}">
+                {% csrf_token %}
+                    <button  type="submit" name="Prateek">
+                        <img src="{% static '/images/014_b.png' %}" alt="picture of person" height="300px">
+                    </button>
+                </form>
+            </div>
+            <div class="details">
+                <h2>Prateek Ranka<br><span>PP</span></h2> 
+            </div>
+        </div>
+
+        <div class="card" > 
+            <div class="imgBx">
+                <form method="post" action="{% url 'entry' %}">
+                {% csrf_token %}
+                    <button  type="submit" name="KC">
+                        <img src="{% static '/images/015_a.png' %}" alt="picture of person" height="300px">
+                    </button>
+                </form>
+            </div>
+            <div class="details">
+                <h2>Kunal Chandwani<br><span>KC</span></h2> 
+            </div>
+        </div>
+
+        <div class="card" > 
+            <div class="imgBx">
+                <form method="post" action="{% url 'entry' %}">
+                {% csrf_token %}
+                    <button  type="submit" name="Atman">
+                        <img src="{% static '/images/015_b.png' %}" alt="picture of person" height="300px">
+                    </button>
+                </form>
+            </div>
+            <div class="details">
+                <h2>Atman Italiya<br><span>Batman</span></h2> 
+            </div>
+        </div>
+
+        <div class="card" > 
+            <div class="imgBx">
+                <form method="post" action="{% url 'entry' %}">
+                {% csrf_token %}
+                    <button  type="submit" name="Yash">
+                        <img src="{% static '/images/008_b.png' %}" alt="picture of person" height="300px">
+                    </button>
+                </form>
+            </div>
+            <div class="details">
+                <h2>Yash Ranawat<br><span>Mr. Clueless</span></h2> 
+            </div>
+        </div>
+
+        <div class="card" > 
+            <div class="imgBx">
+                <form method="post" action="{% url 'entry' %}">
+                {% csrf_token %}
+                    <button  type="submit" name="KJ">
+                        <img src="{% static '/images/KJsolo.jpg' %}" alt="picture of person" height="300px">
+                    </button>
+                </form>
+            </div>
+            <div class="details">
+                <h2>Killjoy<br><span>KJ :)</span></h2> 
+            </div>
+        </div>
+
+        <div class="card" > 
+            <div class="imgBx">
+                <form action="/wall">
+                    <button  type="submit">
+                        <img src="{% static '/images/KJsolo.jpg' %}" alt="picture of person" height="300px">
+                    </button>
+                </form>
+            </div>
+            <div class="details">
+                <h2>Wall of memories<br><span>Cherish :D</span></h2> 
+            </div>
+        </div>
+
+    
+
+        <form action="/home">
+            <button class="button-55 back" type="submit">Back</button>
+        </form>
+        <form action="/close">
+            <button class="button-55 close" type="submit">Close</button>
+        </form>
+
+    </div>
+    <!-- <div class="card">
+        <form method="post" action="{% url 'entry' %}">
+            {% csrf_token %}
+            <button type="submit" name="Mom">
+                <img src="{% static '/images/001_a.png' %}" alt="picture of person" height="300px">
+                <span class="container">Mom</span>
+            </button>
+        </form>
+    </div> -->
+
+</div>
+</body>
+</html>

@@ -1,0 +1,32 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static '/css/entry.css' %}">
+    <title>Entry</title>
+</head>
+<body>
+    <div class="text">
+        <h1>{{obj.name}}</h1>
+        <p>{{obj.msg}}</p>
+    </div>
+    
+    <div class="card">
+        <img src="{{ obj.image.url }}" alt="picture of person">
+        <div  class="container">
+            <p id="polaroid">{{obj.name}} & you♥</p>
+        </div>  
+    </div>
+
+    <form action="/index">
+        <button class="button-55 back" type="submit">Back</button>
+    </form>
+    <form action="/close">
+        <button class="button-55 close" type="submit">Close</button>
+    </form>
+</body>
+</html>

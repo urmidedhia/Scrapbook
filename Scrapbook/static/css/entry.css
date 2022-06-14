@@ -1,0 +1,117 @@
+body{
+    background-image: url('../images/canvabg.png');
+    background-size:1500px 700px;
+}
+
+div.text{
+    position: fixed;
+    left: 810px;
+    right: 200px;
+    top: 100px;
+    bottom: 400px;
+
+}
+
+h1{
+    color: #923a47;
+    font-family: 'Papyrus';
+    font-weight: bold;
+    font-size:30px;
+}
+
+#polaroid{
+    font-family: 'Ink Free';
+    font-size: 25px;
+    color: #000;
+}
+
+div.container{
+    width : 390px;
+    /* margin : auto; */
+    text-align: center;
+    position: fixed;
+    top: 560px;
+}
+
+p{
+    color: #e37e8d;
+    font-family: 'Papyrus';
+    font-weight: bold;
+    font-size: 18px;
+    top: 130px;
+}
+
+img{
+    position: fixed;
+    left: 208.75px;
+    top: 90px;
+    height : 470px;
+    width : 352.5px;
+}
+
+
+div.card {
+    height:570px;
+    width: 390px;
+    background-color: rgb(241, 231, 224);
+    position : fixed;
+    left: 190px;
+    top: 70px;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 15px, rgba(17, 17, 26, 0.1) 0px 8px 10px, rgba(17, 17, 26, 0.1) 0px 16px 25px;
+}
+
+.button-55 {
+    align-self: center;
+    background-color: #b5c8e6;
+    background-image: none;
+    background-position: 0 90%;
+    background-repeat: repeat no-repeat;
+    background-size: 4px 3px;
+    border-radius: 15px 225px 255px 15px 15px 255px 225px 15px;
+    border-style: solid;
+    border-width: 2px;
+    box-shadow: rgba(0, 0, 0, .2) 15px 28px 25px -18px;
+    box-sizing: border-box;
+    color: #41403e;
+    cursor: pointer;
+    display: inline-block;
+    font-family: 'Papyrus',Neucha, sans-serif;
+    font-weight:bold;
+    font-size: 1rem;
+    line-height: 23px;
+    outline: none;
+    padding: .75rem;
+    text-decoration: none;
+    transition: all 235ms ease-in-out;
+    border-bottom-left-radius: 15px 255px;
+    border-bottom-right-radius: 225px 15px;
+    border-top-left-radius: 255px 15px;
+    border-top-right-radius: 15px 225px;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+  }
+  
+  .button-55:hover {
+    box-shadow: rgba(0, 0, 0, .3) 2px 8px 8px -5px;
+    transform: translate3d(0, 2px, 0);
+  }
+  
+  .button-55:focus {
+    box-shadow: rgba(0, 0, 0, .3) 2px 8px 4px -6px;
+  }
+  
+  
+  .back{
+      position: fixed;
+      left: 950px;
+      top : 500px;
+  
+  }
+  
+  .close{
+      position: fixed;
+      left: 1100px;
+      top : 500px;
+  }
+  

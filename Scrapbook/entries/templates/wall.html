@@ -1,0 +1,83 @@
+{%load static%}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wall of memories</title>
+    <link rel="stylesheet" href="{% static '/css/wall.css' %}">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1>Welcome!</h1>
+    <div class="image">
+    <div class="box">
+        <div class="card" > 
+            <div class="imgBx">
+                <form action="/family">
+                    <button type="submit">
+                        <img src="{% static '/images/indexbg.png' %}" alt="family wall" height="400px" width="600px">
+                    </button>
+                </form>
+            </div>
+            <div class="details">
+                <h2>Family Wall<br><span></span></h2> 
+            </div>
+        </div>
+
+        <div class="card" > 
+            <div class="imgBx">
+                <form action="/scar">
+                    <button type="submit">
+                        <img src="{% static '/images/indexbg.png' %}" alt="scar wall" height="400px" width="600px">
+                    </button>
+                </form>
+            </div>
+            <div class="details">
+                <h2>SCAR Wall<br><span></span></h2> 
+            </div>
+        </div>
+
+        <div class="card" > 
+            <div class="imgBx">
+                <form action="/fomo">
+                    <button type="submit">
+                        <img src="{% static '/images/indexbg.png' %}" alt="fomo wall" height="400px" width="600px">
+                    </button>
+                </form>
+            </div>
+            <div class="details">
+                <h2>FOMO Wall<br><span></span></h2> 
+            </div>
+        </div>
+
+        <div class="card" > 
+            <div class="imgBx">
+                <form action="/dates">
+                    <button type="submit">
+                        <img src="{% static '/images/indexbg.png' %}" alt="dates wall" height="400px" width="600px">
+                    </button>
+                </form>
+            </div>
+            <div class="details">
+                <h2>Dates Wall<br><span></span></h2> 
+            </div>
+        </div>
+    </div>
+
+    <h2><pre id="title">Hover on a frame to expand,
+click to view :)</pre></h2>
+
+    <form action="/index">
+        <button class="button-55 back" type="submit">Back</button>
+    </form>
+    <form action="/close">
+        <button class="button-55 close" type="submit">Close</button>
+    </form>
+</div>
+</body>
+</html>
