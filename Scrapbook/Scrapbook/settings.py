@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-geuv2xgi(-i-5=i^p8$hbi*jztdy*j@r(kfo&yh5l@h))gey!2
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['birthdayscrapbook.pythonanywhere.com']
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
