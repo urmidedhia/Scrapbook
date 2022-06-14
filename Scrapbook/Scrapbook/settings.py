@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-geuv2xgi(-i-5=i^p8$hbi*jztdy*j@r(kfo&yh5l@h))gey!2
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['birthdayscrapbook.pythonanywhere.com']
 
 
 # Application definition
@@ -38,7 +38,6 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    # 'pin_passcode',
     'entries',
     'home',
 ]
@@ -51,7 +50,6 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
-    # 'pin_passcode.middleware.PinPasscodeMiddleware',
 ]
 
 ROOT_URLCONF = 'Scrapbook.urls'
