@@ -121,6 +121,8 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 
+STATIC_ROOT = '/home/birthdayscrapbook/Scrapbook/Scrapbook/static'
+
 MEDIA_URL = '/images/'
 
 MEDIA_ROOT = BASE_DIR/"static/images"
