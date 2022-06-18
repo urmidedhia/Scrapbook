@@ -33,8 +33,8 @@ div.container{
     /* margin : auto; */
     text-align: center;
     position: fixed;
-    top:75vh;
-    /* top: 560px; */
+    /* top:75vh; */
+    top: 560px;
 }
 
 p{
@@ -48,8 +48,8 @@ p{
 img{
     position: fixed;
     left: 208.75px;
-    top: 12.5vh;
-    /* top: 90px; */
+    /* top: 12.5vh; */
+    top: 90px;
     height : 470px;
     width : 352.5px;
 }
@@ -60,10 +60,10 @@ div.card {
     width: 390px;
     background-color: rgb(241, 231, 224);
     position : fixed;
-    left: 25vh;
-    /* left: 190px; */
-    top: 10vh;
-    /* top: 70px; */
+    /* left: 25vh; */
+    left: 190px;
+    /* top: 10vh; */
+    top: 70px;
     box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 15px, rgba(17, 17, 26, 0.1) 0px 8px 10px, rgba(17, 17, 26, 0.1) 0px 16px 25px;
 }
 
@@ -109,7 +109,7 @@ div.card {
   }
   
  
-  .back{
+  /* .back{
     position: absolute;
     left: 130vh;
     top : 70vh;
@@ -120,17 +120,17 @@ div.card {
     position: absolute;
     left: 150vh;
     top : 70vh;
-}
-  /* .back{
+} */
+  .back{
       position: fixed;
       left: 950px;
-      top : 500px;
+      top : 550px;
   
-  } */
+  }
   
-  /* .close{
+  .close{
       position: fixed;
-      left: 1100px;
-      top : 500px;
-  } */
+      left: 1150px;
+      top : 550px;
+  }
   

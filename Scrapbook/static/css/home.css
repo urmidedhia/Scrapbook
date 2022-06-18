@@ -6,9 +6,12 @@ body{
 
 img{
     position: fixed;
+    /* left: 160px; */
     left: 160px;
-    top: 169px;
-    height : 450px;
+    /* top: 169px; */
+    top: 200px;
+    /* height : 450px; */
+    height : 470px;
 }
 
 div{

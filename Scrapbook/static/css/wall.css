@@ -1,6 +1,7 @@
 body{
   background-image: url('../images/pinkwalltapes.png');
-    background-size: 100% 590%;
+    background-size: 100% 100vh;
+    /* background-size: 100% 590%; */
     background-repeat: no-repeat;
 }
 
