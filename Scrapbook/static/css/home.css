@@ -1,6 +1,7 @@
 body{
     background-image: url('../images/canvabg.png');
-    background-size:1500px 700px;
+    background-size: 100% 100vh;
+    /* background-size:1500px 700px; */
 }
 
 img{

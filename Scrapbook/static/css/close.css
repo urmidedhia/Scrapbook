@@ -21,8 +21,10 @@ body{
   flex-direction: row;
   border-radius: 15px;
   position: absolute;
-  top:13.5%;
-  left: 22.5%;
+  top:13.5vh;
+  left: 45.5vh;
+  /* top:13.5%;
+  left: 22.5%; */
 }
 .card h2 {
   font-family: 'Papyrus';

@@ -5,7 +5,8 @@ body,html{
 .image{
     background-image: url('../images/indexbg2.png');
     background-position: center ;
-    background-size: 100% 100%;
+    /* background-size: 100% 100%; */
+    background-size: 100% 300vh;
     background-repeat: no-repeat;
     height:300vh;
 }
@@ -24,7 +25,8 @@ h1{
     position: absolute;
     top: 210px;
     left: 43px;
-    width: 1425px;
+    /* width: 1425px; */
+    width: 95%;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
     grid-row-gap: 37px;
