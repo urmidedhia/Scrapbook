@@ -6,9 +6,9 @@ body{
 
 div.text{
     position: fixed;
-    margin-left: 2%;
-    margin-right: -1%;
-    margin-top: 0.5%;
+    margin-left: 1%;
+    margin-right: -2%;
+    /* margin-top: 0.5%; */
     left: 810px;
     right: 200px;
     top: 100px;
@@ -124,13 +124,14 @@ div.card {
   .back{
       position: fixed;
       left: 950px;
-      top : 550px;
+      /* top : 550px; */
+      top : 560px;
   
   }
   
   .close{
       position: fixed;
       left: 1150px;
-      top : 550px;
+      top : 560px;
   }
   

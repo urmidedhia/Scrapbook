@@ -192,7 +192,8 @@ button{
 #title{
   position: fixed;
   color: #c58d9e;
-  top : 513px;
+  /* top : 513px; */
+  top : 67%;
   left: 30%;
   text-align: center;
   margin: 0 auto;
