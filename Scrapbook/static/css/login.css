@@ -1,3 +1,8 @@
+@font-face {
+    font-family: Papyrus;
+    src: url(../fonts/PAPYRUS.TTF);
+  }
+
 .centre{
     margin: 50px auto 0px; 
 }
