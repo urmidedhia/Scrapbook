@@ -19,7 +19,10 @@
         
     </form> -->
     <div class="card centre">
-    <form method="post" action="/odin">
+        <!-- {% if form.errors %}
+<p>Your username and password didn't match. Please try again.</p>
+{% endif %} -->
+    <form method="post" action="{% url 'login' %}">
         {% csrf_token %}
         <img src="{% static '/images/login.png' %}" alt="hehe" height=5% width=100%>
         <div class="container">

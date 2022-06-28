@@ -142,4 +142,4 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 # PIN_PASSCODE_IP_WHITELIST = ('123.123.123.123',)
 
-LOGIN_REDIRECT_URL = 'home/'
+LOGIN_REDIRECT_URL = 'odin/'
